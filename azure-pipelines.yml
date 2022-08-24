@@ -19,7 +19,7 @@ steps:
     resourceGroupName: 'AzureRmPipeline-rg'
     location: 'West Europe'
     templateLocation: 'URL of the file'
-    csmFileLink: 'https://raw.githubusercontent.com/SR-Segment/AzureRmPipeline-repo/main/CreateWebApp/azuredeploy.json?token=GHSAT0AAAAAABX7LTTTOOTPPSP35W7VCKMCYYGACXA'
+    csmFileLink: 'https://raw.githubusercontent.com/SR-Segment/AzureRmPipeline-repo/main/CreateWebApp/azuredeploy.json'
     overrideParameters: '-projectName AW-AzureRmPipeline-Demo'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
