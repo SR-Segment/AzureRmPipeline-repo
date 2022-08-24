@@ -20,6 +20,6 @@ steps:
     location: 'West Europe'
     templateLocation: 'URL of the file'
     csmFileLink: 'https://raw.githubusercontent.com/SR-Segment/AzureRmPipeline-repo/main/CreateWebApp/azuredeploy.json'
-    overrideParameters: '-projectName AW-AzureRmPipeline-Demo'
+    overrideParameters: '-projectName awarmdemo'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
